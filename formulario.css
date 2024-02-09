@@ -1,0 +1,173 @@
+/* formulario.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+}
+
+/*portada*/
+
+body {
+    background: linear-gradient(to bottom, #3498db, #cbcdcf)
+    
+}
+
+.formulario-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* estilos.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.contenedor-titulo {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    background-color: #3498db; /* Color de fondo del título */
+    color: #fff; /* Color del texto del título */
+    padding: 10px 20px; /* Espaciado interno del título */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+
+label {
+    margin-top: 10px;
+}
+
+#campaña{
+    height: 45px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* styles.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+#checkboxRutExtranjero{
+    max-width: 30px;
+
+}
+a{
+    background-color: #1a1717;
+
+}
+
+/* boton */
+#btn-boton{
+    background-color: #39dfdf;
+    border-radius:6%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 50px 850px;
+    cursor: pointer;
+  
+  }
+
+  #btn-boton1{
+    background-color: #39dfdf;
+    border-radius:6%;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 70px 820px;
+    cursor: pointer;
+  
+  }
+
+  #btn-boton:hover{
+    background-color: #29b982;
+}
+
+/* boton */
+
+.button-container {
+    text-align: center;
+    margin-top: 20px; /* Ajusta según sea necesario */
+}
+
+a {
+    display: block;
+    margin-bottom: 10px; /* Ajusta según sea necesario para agregar espacio entre los botones */
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+  
