@@ -19,19 +19,21 @@
 
     <div class="row justify-content-center mt-4">
         <div class="col-md-6">
-            <form class="mx-auto">
+            <form action="validar_usuario.php" method="POST" class="mx-auto">
                 <div class="mb-3">
-                    <label for="username" class="form-label">Nombre de usuario:</label>
-                    <input type="text" id="username" name="username" class="form-control" required>
+                    <label for="correo" class="form-label">Nombre de usuario:</label>
+                    <input type="text" id="correo" name="correo" class="form-control" required>
                 </div>
                 <div class="mb-3">
-                    <label for="password" class="form-label">Contraseña:</label>
-                    <input type="password" id="password" name="password" class="form-control" required>
+                    <label for="contrasena" class="form-label">Contraseña:</label>
+                    <input type="password" id="contrasena" name="contrasena" class="form-control" required>
                 </div>
                 <div class="text-center">
-                    <a id="btn-boton" href="formulario.html">INGRESAR</a>
+                    <button type="submit" id="btn-boton">INGRESAR</button>
                 </div>
             </form>
+            
+            
             <p class="mt-3 text-center">
                 ¿No tienes una cuenta? <a href="http://192.168.110.11/callcenter/"target="_blank">Regístrate aquí</a>
             </p>
