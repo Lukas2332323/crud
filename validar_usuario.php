@@ -1,7 +1,7 @@
 <?php
 
 require 'Datos/conexion.php';
-$conexion;
+
 session_start();
 
 $correo = $_POST['correo'];
@@ -18,7 +18,7 @@ try {
 
     if ($resultado['count'] > 0) {
         $_SESSION['email'] = $correo;
-
+        echo 'success';
         // Evitar inyección de SQL utilizando consultas preparadas
         $resultados = $conexion->prepare("SELECT idLogin FROM iniciar_sesion WHERE correo = ?");
         $resultados->bindParam(1, $correo);
@@ -26,17 +26,13 @@ try {
         $consulta = $resultados->fetch(PDO::FETCH_ASSOC);
 
         if ($consulta) {
-            $_SESSION['id_app'] = $consulta['idLogin'];
+            $_SESSION['id_user'] = $consulta['idLogin'];
+            exit();
         }
-        header("Location: formulario.php");
-        exit();
-    } else {
-        header("Location: error.php");
-        exit();
     }
 } catch (PDOException $e) {
     // En caso de error en la consulta
     header("Location: error.php");
+    echo 'error';
     exit();
 }
-?>
