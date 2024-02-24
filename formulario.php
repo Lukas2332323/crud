@@ -9,10 +9,7 @@
 
 </head>
 <body>
-<?php
-    include("prueba.php");
-    echo $nombre 
-    ?>
+
 
     <div class="formulario-container">
         <form id="miFormulario">

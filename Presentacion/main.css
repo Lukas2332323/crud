@@ -1,0 +1,145 @@
+/*CONFIGURACION INICIAL*/
+
+* {
+    text-decoration: none;
+    margin: 0rem;
+    padding: 0rem;
+    font-style: none;
+    list-style: none;
+
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Raleway";
+    font-size: 1.6rem;
+    line-height: 1.5;
+
+}
+
+/* GLOBALES */
+.bolder {
+    font-weight: bolder;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+
+
+/* UTILIDADES */
+
+.sombra {
+    text-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+
+.flex-row {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-centrar-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alinear-vertical {
+    display: flex;
+    align-items: center;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.no-seleccionar {
+    user-select: none;
+}
+
+.display-none {
+    display: none;
+}
+
+
+
+/* FIN UTILIDAD */
+
+
+
+.contenedor-header{
+    height: 11vh;
+    background: #3498db;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo img{
+    width: 7rem;
+    border-radius: 10rem;
+    margin-left: 1rem;
+
+}
+
+.logo h1{
+    color: whitesmoke;
+    margin-left: 1rem;
+    font-family: Quicksand;
+    font-weight: 400;
+}
+
+.contenedor-header{
+    display: flex;
+    align-items: center;
+}
+
+
+.contenedor-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-header p{
+    font-family: Quicksand;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0 10px 20px rgba(255, 255, 255, 0.479);
+}
+
+.nombre{
+    margin-right: 2rem;
+}
+
